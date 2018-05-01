@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-type" content="topic"/>
+<meta name="helpsystempath" content="http://help.autodesk.com/view/FCAM/2019/ENU/"/>
+<link rel="canonical" href="http://help.autodesk.com/cloudhelp/2019/ENU/FCAM-Videos/files/GUID-BF63A1C4-A9F3-457E-AAD6-D84C434A3767.htm#!"/>
+<meta name="product" content="FCAM"/>
+<meta name="release" content="2019"/>
+<meta name="book" content="GeneralUser"/>
+<meta name="component" content="FCAM-Videos"/>
+<meta name="created" content="28/3/2018"/>
+<meta name="applies-to-languages" content="DEU, ESP, FRA, ITA, JPN, PLK, PTB, RUS, CHS"/>
+<meta name="user-comments" content="disable"/>
+<meta name="video-id" content="9iNGhhZTE6Zq3OwAEb6Z_894hcP3ehnM"/>
+<meta name="modified" content="09/03/2018"/>
+<meta name="topicid" content="GUID-BF63A1C4-A9F3-457E-AAD6-D84C434A3767"/>
+<meta name="language" content="ENU"/>
+<title>Part handling for turning</title>
+
+	<link rel="stylesheet" type="text/css" href="/view/clientframework/client.css"/>
+	<script type="text/javascript" src="/view/clientframework/client.js"><!--filler--></script>
+</head>
+<body id="GUID-BF63A1C4-A9F3-457E-AAD6-D84C434A3767">
+<div class="head"><div class="head-block"><div class="button-info"><span id="infoline"> </span></div>
+<div class="ancestry"> </div>
+<div class="head-text"><h1>Part handling for turning</h1></div>
+</div>
+</div>
+
+<div class="body"><p class="p">Learn how to use part handling when programming multiple work offsets for a lathe, turn-mill or Swiss-type lathe. This includes transferring a part from the main to sub spindle whether you are using a slug or bar. 
+	 </p>
+<p class="p"><video data-video-id="9iNGhhZTE6Zq3OwAEb6Z_894hcP3ehnM" crossorigin="anonymous" controls="controls" poster="https://help.autodesk.com/videos/9iNGhhZTE6Zq3OwAEb6Z_894hcP3ehnM/poster"><source type="video/webm" src="https://help.autodesk.com/videos/9iNGhhZTE6Zq3OwAEb6Z_894hcP3ehnM/video.webm"/><source type="video/mp4" src="https://help.autodesk.com/videos/9iNGhhZTE6Zq3OwAEb6Z_894hcP3ehnM/video.mp4"/></video> 
+	 </p>
+<p class="p">You can download the demonstration file shown in this video from the 
+		<a class="xref" href="https://knowledge.autodesk.com/support/featurecam/downloads/caas/downloads/content/featurecam-2019-essential-skills-demonstration-files.html" target="_blank">Autodesk Knowledge Network</a>. 
+	 </p>
+</div>
+
+</body>
+</html>

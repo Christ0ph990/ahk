@@ -1,0 +1,39 @@
+﻿Excelify()
+{
+TextPath := A_ScriptDir "\AKN_Extract\output.txt"
+XL := ComObjCreate("Excel.Application")
+XL.WorkBooks.Add(TextPath)
+XLwbook := ComObjGet(TextPath)
+XL.Columns("A:A").Select
+XL.Selection.TextToColumns(XL.Range("A:A"), 1, 1, 0, 1, 0, 0, 0, 1, "¬")
+XL.Columns("A:C").Select
+XL.Selection.EntireColumn.AutoFit
+XL.Range("A1:C1").Select
+XL.Selection.Interior.ColorIndex := 47
+XL.Selection.Font.Bold := True
+XL.Rows("2:2").Select
+XL.ActiveWindow.FreezePanes := True
+
+SavePath := A_ScriptDir "\AKN_Extract\exceloutput.xlsx"
+XLwbook.SaveAs(SavePath, 51)
+XL.Workbooks.Close
+ObjRelease(XL)
+ObjRelease(XLwbook)
+}
+
+ButtonLink()
+{
+	Gui, Add, Button, x220 y350 w100 h30 gnextGUI, Next
+	hyperlink := "https://wiki.autodesk.com/display/DLCG/Extracting+Titles%2C+GUIDs%2C+and+CIDs+from+publications"
+	Gui, Add, Link, x+-310 Y+0, <a href="%hyperlink%">Help</a>
+}
+
+duration(n){
+	sec:=1, min:=60*sec, hr:=60*min, day:=24*hr, wk:=7*day
+	w	:=n//wk		, n:=Mod(n,wk)
+	d	:=n//day	, n:=Mod(n,day)
+	h	:=n//hr		, n:=Mod(n,hr)
+	m	:=n//min	, n:=Mod(n,min)
+	s	:=n
+	return trim((w?w " wk, ":"") (d?d " d, ":"") (h?h " hr, ":"") (m?m " min, ":"") (s?s " sec":""),", ")
+}
