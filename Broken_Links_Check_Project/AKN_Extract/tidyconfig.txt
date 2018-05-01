@@ -1,0 +1,18 @@
+// sample config file for HTML tidy
+indent: auto
+indent-spaces: 3
+indent-attributes: yes
+priority-attributes: HREF
+show-warnings: no
+quiet: yes
+uppercase-tags: no
+uppercase-attributes: yes
+drop-empty-element: no
+drop-empty-paras: no
+quote-ampersand: no
+quote-nbsp: no
+input-xml: yes
+bare: yes
+literal-attributes: yes
+write-back: yes
+wrap: 0
